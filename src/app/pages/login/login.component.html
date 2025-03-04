@@ -1,32 +1,49 @@
-<h1>Вход</h1>
-  <mat-form-field>
-  <mat-label>Login</mat-label>
-  <input matInput>
-</mat-form-field>
-
-<mat-form-field>
-  <mat-label>Password</mat-label>
-  <input matInput>
-</mat-form-field>
 
 
+  <div class="container">
 
-<!-- <div class="example-container">
-  <mat-form-field>
-    <mat-label>Enter your password</mat-label>
-    <input matInput [type]="hide() ? 'password' : 'text'" />
-    <button
-      mat-icon-button
-      matSuffix
-      (click)="clickEvent($event)"
-      [attr.aria-label]="'Hide password'"
-      [attr.aria-pressed]="hide()"
-    >
-      <mat-icon>{{hide() ? 'visibility_off' : 'visibility'}}</mat-icon>
-    </button>
-  </mat-form-field> -->
+    <div class="image-woman">
+      <img class="welcome-img" src="/images/woman-mail.svg" 
+      width="700" height="650"/>
+    </div>
+
+    <div class="container-option">
+      
+      <div class="logo-mail">
+       <h1>AirMail</h1>
+       <p>your fastest mail</p>
+        <img class="auth-img" src="/images/paper_airplane.svg"  
+        width="400" height="300"/>
+        <div class="option-button">
+          <button class="btn-color" mat-raised-button routerLink="/income">Create an account</button>
+          <button class="btn-color" mat-raised-button >Sign in</button>
+      </div>
+        
+      </div> 
+      
+    </div>
+
+  </div>
+  <!-- <div class="autorisation">
+    <h1>Вход</h1>
+  
+  <mat-form-field class="input-welcome">
+    <mat-label class="input">Login</mat-label>
+    <input matInput>
+  </mat-form-field>
+  
+ 
+    <mat-form-field class="input-welcome">
+    <mat-label class="input">Password</mat-label>
+    <input matInput>
+  </mat-form-field>
+ 
+     <button class="btn-send" mat-raised-button routerLink="/income">send</button>
+  </div> -->
 
 
+
+<!-- <button routerLink="/income">нажми меня</button> не удалять -->
 
 <router-outlet />
 

@@ -34,8 +34,8 @@
             ],
             "styles": [
               "@angular/material/prebuilt-themes/azure-blue.css",
-              "src/styles.scss",
-              "node_modules/@material/web/"
+              "src/styles.scss"
+              
             ],
             "scripts": [
               
